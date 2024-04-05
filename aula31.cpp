@@ -20,6 +20,9 @@ int main() {
     aula.push_front(4);
     aula.push_front(6);
 
+    cout << aula.front() << "\n";
+    cout << aula.back() << "\n";
+
     cout << "Tamanho da lista: " << aula.size() << "\n\n";
 
     aula.sort();
